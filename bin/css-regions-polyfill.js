@@ -6280,7 +6280,7 @@ module.exports = (function(window, document) { "use strict";
 	};
 	
 	enableObjectModel(window, document, cssRegions);
-	
+	window.cssRegions = cssRegions;
 	return cssRegions;
 })(window, document);
 require.define('src/css-regions/polyfill.js');

@@ -5275,8 +5275,8 @@ module.exports = (function(window, document, cssRegions) { "use strict";
 
 	}
 
-	// load the polyfill immediately if not especially told otherwise
-	if(!("cssRegionsManualTrigger" in window)) { cssRegions.enablePolyfill(); }
+	// // load the polyfill immediately if not especially told otherwise
+	// if(!("cssRegionsManualTrigger" in window)) { cssRegions.enablePolyfill(); }
 	
 });
 require.define('src/css-regions/lib/objectmodel.js');
